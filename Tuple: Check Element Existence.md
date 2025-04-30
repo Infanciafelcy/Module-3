@@ -10,8 +10,21 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+```
+# Define a tuple with letters and numbers
+x = ('a', 'b', 'n', 5, 8, 'z')
+
+# Use the in operator to check for 'n' and 8
+check_n = 'n' in x
+check_8 = 8 in x
+
+# Print the results
+print("'n' in tuple:", check_n)
+print("8 in tuple:", check_8)
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/49cb7229-538f-4cd1-9b83-73d0dda92978)
 
 ## Result
+Program executed successfully.
